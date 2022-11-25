@@ -1,0 +1,248 @@
+#body{
+    background-color: #d6dbd4;
+}
+
+.PiePagina{
+    background: #575757;
+    position: fixed;
+
+    /*  poner footer abajo */
+    text-align: right;
+    bottom: 0;
+
+    width: 100%;
+    height: 1cm;
+    }
+
+/****************************banner****************************/
+/*Header*/
+.banner{
+    height: 15vh;
+    overflow: hidden;
+    background-color: #900C3F;
+}
+/*imagen*/
+.banner img{
+    display: inline-block;
+    position: sticky;
+    top: 1px;
+    width: 14vh;
+    height: 14vh;
+    border-radius: 8vh;
+}
+/*Titulo*/
+.banner h1{
+    display: inline-block;
+    position: sticky;
+    top: 30%;
+    border-radius: 100px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:white;
+}
+
+
+/**************************Navegacion**************************/
+/*Navs*/
+.navegacion{
+    overflow:auto;
+    background-color: #900C3F;
+}
+/*Contenido del menu*/
+.navegacion .nav{
+    height: max-content;
+    background-color: #900C3F;
+
+}
+/*tab*/
+.navegacion .nav .nav-item .nav-link{
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+}
+
+/*tab activado*/
+.navegacion .nav .nav-item .nav-link.active{
+    background-color: #900C3F;
+    border-bottom-style: dashed;
+    border-width: 5px;
+    font-size: 25px;
+
+}
+
+/*tab al pasar el mouse encima*/
+.navegacion .nav .nav-item .nav-link:hover{
+    color:black;
+    font-size: 25px;
+    transition: 0.2;
+
+    background-color: #17c46d;
+    border-bottom-style: dashed;
+    border-width: 5px;
+    cursor: pointer;
+}
+
+/**************************Contenido Index***************************/
+.Contenido-Inicio{
+    float: left;
+    overflow: hidden;
+    width: 100%;
+
+}
+.Contenido-Inicio .Cuadro-Contenido{
+    background-color: #9e9d9d;
+    float: left;
+    position: relative;
+    overflow-x: hidden;
+
+    margin-left: 2%;
+    margin-top:0.5cm;
+
+    width: 40rem;
+    height: 40rem;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.Contenido-Inicio .Cuadro-Contenido::-webkit-scrollbar{
+    width: 9px;
+    background-color: #9e9d9d;
+    border-radius: 5px;
+}
+.Contenido-Inicio .Cuadro-Contenido::-webkit-scrollbar-thumb{
+    background-color: #6b6b6a;
+    border-radius: 10px;
+}
+
+.Contenido-Inicio .Cuadro-Contenido .img img{
+    margin-left: 10%;
+    position: relative;
+    width: 80%;
+    height: 20%;
+}
+
+.Contenido-Inicio .Cuadro-Contenido .info{
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 18px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/**************************Contenido Noticias***************************/
+.Contenido-Noticias{
+    float: left;
+    overflow: hidden;
+    width: 100%;
+    margin-bottom: 2cm;
+
+}
+
+.Contenido-Noticias .Noticia{
+    position: relative;
+    background-color: #62776c;
+
+    width: 60%;
+    height: max-content;
+
+    margin-top:2cm;
+    margin-left: 20%;
+    padding: 4rem;
+
+    text-align: justify;
+
+}
+
+.Contenido-Noticias .Noticia .info{
+    font-size: 16px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Contenido-Noticias .Noticia .img img{
+    margin-left: 10%;
+    position: relative;
+    width: 80%;
+    height: 20%;
+}
+
+/**************************Contenido Contactos***************************/
+.Contenido-Contactos{
+    overflow: hidden;
+    width: 100%;
+    padding-bottom: 1cm;
+}
+.Contenido-Contactos div.card{
+    width: 23rem;
+    height: 7cm;
+    float: left;
+    margin:1cm;
+}
+.Contenido-Contactos .card .card-body:hover{
+    background-color: aqua;
+    transition: 3s;
+
+}
+.Contenido-Contactos .card .list-group-item:hover{
+    background-color: aqua;
+    transition: 3s;
+}
+.Contenido-Contactos .card .card-body h4:hover{
+    border-bottom-style: solid;
+    background-color: aqua;
+    transition: 2s;
+}
+
+/**************************Contenido Donaciones***************************/
+.Contenido-Donaciones{
+    float: left;
+
+    overflow: hidden;
+    width: 100%;
+    
+    margin-bottom: 2cm;
+}
+
+/**************************Contenido Cuentas***************************/
+.Contenido-Cuenta{
+    overflow: hidden;
+    width: 100%;
+    padding-bottom: 1cm;
+
+}
+.Contenido-Cuenta .Usuario{
+    float:left;
+    text-align: center;
+    background-color: #4b494a;  
+    width: 100%;
+    height: max-content;
+}
+.Contenido-Cuenta .Usuario .CrearCuenta{
+    float:left;
+    position: relative;
+
+    background-color: #3b3b3b;
+    cursor: pointer;
+    
+    width: max-content;
+    height: 100%;
+
+    margin-left: 10px;
+    left:46%;
+    
+    padding-top:0.6rem;
+    padding-bottom:0.6rem;
+    
+    text-align: center;
+}
+.Contenido-Cuenta .Usuario .CrearCuenta a{
+    text-decoration: none;
+    color:black;
+
+}
+
+.Contenido-Cuenta .Usuario .CrearCuenta:hover{
+    text-decoration: none;
+    color:black;
+    text-shadow: 1px 1px 2px #000000, 0 0 2em #e97070, 0 0 0.2em #e97070;
+}
+/**************************   ***************************/
